@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Whois Looker Upper",
+  "version": "1.1",
+  "description": "Returns Whois info from selection.",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "http://whois.domaintools.com/",
+    "http://whois.webhosting.info/"
+  ],
+  "background": {
+    "scripts": ["whois.js"]
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "16icon.png",
+      "48": "48icon.png",
+      "128": "128icon.png"
+      }
+      //"default_popup": "background.html"
+    }
+}
